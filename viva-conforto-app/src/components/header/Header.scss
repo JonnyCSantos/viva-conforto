@@ -1,10 +1,12 @@
-h1 {
-    .site-logo {
-        width: 190px;
-        height: 50px;
-        a {
+.site-logo {
+    width: 190px;
+    height: 50px;
+    a {
+        width: 100%;
+        height: auto;
+
+        img {
             width: 100%;
-            height: auto;
         }
     }
 }
@@ -15,9 +17,24 @@ h1 {
     a {
         font-weight: 500;
         
-        &hover {
+        :hover {
             color: #124f88;
         }
     }
     
 }
+
+.input-search {
+    display: none;
+}
+
+.btn-search {
+    border: none;
+    background-color: initial;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-style: italic;
+}
+
+      

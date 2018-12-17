@@ -3,8 +3,9 @@ import React from 'react';
 function Search () {
     return (
         <div class="search">
-            <input type="text" placeholder="Faça a Sua Busca"></input>
-            <button className="btn-search">Buscar</button>
+            <input type="text" className="input-search" placeholder="Faça a Sua Busca"></input>
+            <button className="btn-search dark-blue">Buscar</button>
+            <button className="btn-search dark-blue"><img src="" alt="cart"/></button>
         </div>
     )
 }

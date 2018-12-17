@@ -16,6 +16,8 @@ a {
 }
 
 ul {
+    padding: 0px;
+    margin: 0px;
     li {
         display: inline-block;
         list-style: none;
@@ -173,7 +175,7 @@ ul {
 
 .text-style-1 {
     display: block;
-    font-size: 12px;
+    font-size: 1.2em;
     font-weight: 400;
 }
 
@@ -183,4 +185,22 @@ ul {
 
 .light-blue {
     color: $secondary;
+}
+
+.border {
+    border: 1px solid #b3dde9;
+    border-radius: 2px;
+    padding: 8px 10px;
+    text-align: center;
+    margin-left: 10px;
+    :hover {
+        background-color: $primary
+    }
+}
+
+.border:hover {
+    background-color: $primary;
+    a {
+        color: #fff;
+    }
 }
