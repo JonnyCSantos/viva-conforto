@@ -2,3 +2,197 @@ footer#footer {
     background-color: #245d92;
     padding: 50px 0 30px 0;
 }
+
+.footer-title h3 {
+    color: white !important;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.selos h3 {
+    color: white !important;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.footer-title a {
+    color: white;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.footer-title a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    width: 70%;
+    display: inline-block;
+}
+
+.selos {
+    display: inline-block;
+    width: 36%;
+    max-width: 320px;
+    vertical-align: top;
+}
+
+nav.footer-title {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: top;
+}
+
+.contact-text {
+    color: white;
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.contact-info {
+    color: white;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.contact-info.mail {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.days-info {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    margin: 10px 0 0;
+    color: white;
+    display: block;
+}
+
+.selos ul li {
+    width: 32px;
+    padding: 0 2px;
+}
+
+.selos ul li img {
+    width: 100%;
+}
+
+.contact-text.tel:before {
+    content: url(./img/icons/tel.png);
+    margin-right: 5px;
+}
+
+.contact-text.whats:before {
+    content: url(./img/icons/whats.png);
+    margin-right: 5px;
+}
+
+.contact-text.email:before {
+    content: url(./img/icons/mail.png);
+    margin-right: 5px;
+}
+
+.social {
+    margin-top: 20px;
+    span {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 12px;
+        font-weight: 300;
+        margin-right: 6px;
+        text-transform: uppercase;
+        img {
+            margin-left: 10px;
+        }
+        
+    }
+}
+
+a.facebook {
+    color: #fff;
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-left: 10px;
+    
+}
+
+a.facebook:before {
+    content: url(./img/icons/facebook.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+a.insta {
+    color: #fff;
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+a.insta:before {
+    content: url(./img/icons/insta.png);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+li.selo-img {
+    width: 100px !important;
+}
+
+li.selo-img.big img {
+    width: 150px;
+    margin-top: 15px;
+}
+
+ul.seg {
+    margin-top: 25px;
+}
+
+p.copyright {
+    color: #98a0a2;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 40px auto 35px;
+}
+
+.copy {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+span.logotray-message {
+    color: #666 !important;
+    font: 400 9px/20px Verdana, sans-serif !important;
+    background: #ccc;
+    display: inline-block;
+    margin: auto;
+    padding: 0 18px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+}
+
