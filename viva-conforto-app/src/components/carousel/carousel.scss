@@ -1,4 +1,14 @@
-.carousel {
-    text-align: center;
-    font-size: 10px;
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    height: 475px;
+}
+
+.owl-carousel .owl-item {
+    overflow: hidden;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: initial !important;
+    height: 100%;
+    transform: translateX(-10%);
 }

@@ -22,6 +22,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "react-owl-carousel2": "^0.3.0",
     "react-scripts": "^2.1.1"
   }
 }

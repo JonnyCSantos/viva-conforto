@@ -21,6 +21,9 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Viva Conforto, os melhores travesseiros e acessórios de conforto 2018</title>
+
+    <script crossorigin src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
   </head>
   <body>
     <noscript>
@@ -38,4 +41,44 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    $( document ).ready(function() {
+        /* Show Sub-menus */ 
+        $("#baby").hover(function() {
+            $("#baby > .sub-menu").show();
+        }, function() {
+            $("#baby > .sub-menu").hide();
+        });
+
+        $("#bed").hover(function() {
+            $("#bed > .sub-menu").show();
+        }, function() {
+            $("#bed > .sub-menu").hide();
+        });
+
+        $("#pillow").hover(function() {
+            $("#pillow > .sub-menu").show();
+        }, function() {
+            $("#pillow > .sub-menu").hide();
+        });
+        
+        $("#travel").hover(function() {
+            $("#travel > .sub-menu").show();
+        }, function() {
+            $("#travel > .sub-menu").hide();
+        });
+
+        $("#decoration").hover(function() {
+            $("#decoration > .sub-menu").show();
+        }, function() {
+            $("#decoration > .sub-menu").hide();
+        });
+
+        $("#all").hover(function() {
+            $("#all > .sub-menu").show();
+        }, function() {
+            $("#all > .sub-menu").hide();
+        });
+    });
+  </script> 
 </html>
