@@ -1,3 +1,14 @@
+.brands {
+    display: inline-block;
+}
+
+.newsletter {
+    border: 1px solid #b3dde9;
+    padding: 15px 0;
+    display: inline-block;
+    text-align: center;
+}
+
 .brands > .owl-carousel .owl-item {
     overflow: initial;
 }
@@ -20,6 +31,10 @@
     left: -10px;
 }
 
+.brands .owl-nav .owl-prev:hover::before {
+    color: #124f88 !important;
+}
+
 .brands .owl-nav .owl-next:after {
     content: ' \F054';
     font-family: 'FontAwesome';
@@ -28,4 +43,73 @@
     position: absolute;
     top: 20px;
     right: -10px;
+}
+
+.brands .owl-nav .owl-next:hover::after {
+    color: #124f88 !important;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content > span {
+    display: inline-block;
+}
+
+span.news-text {
+    display: flex;
+    color: #178AA9;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+input.input-mail {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: transparent;
+    font-style: italic;
+    border: none;
+    border-radius: 2px;
+    color: #248ba7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    outline: none;
+    padding: 0 0 0 10px;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+span.border-mail form {
+    align-items: center;
+    background-color: white;
+    border: 1px solid #b3dde9;
+    border-radius: 2px;
+    display: flex;
+    flex: 0 0 250px;
+    height: 50px;
+}
+
+span.news-text:before {
+    content: url(/static/media/envelope.35f41285.png);
+    margin-right: 10px;
+}
+
+button.send-mail {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    color: #287f9a;
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+button.send-mail:hover {
+    color: #b3dde9;
 }

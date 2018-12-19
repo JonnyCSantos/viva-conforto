@@ -21,7 +21,7 @@ class Shelf extends Component {
         const { ShelfName, ShelfDesc } = this.props;
 
         return (
-        <div className="container">
+        <section className="container">
             <h2 className="shelf-name">{ShelfName}</h2>
             <h4 className="shelf-desc">{ShelfDesc}</h4>
             <ul className="shelf">
@@ -57,7 +57,7 @@ class Shelf extends Component {
                                     <div className="product-price">
                                         <span className="real">{`R$ ${product.val_real}`}</span>
                                         <span className="sale">{`R$ ${product.val_sale}`}</span>
-                                        <span className="qtd-parc"><strong>{product.qtd_parc}</strong> de <strong>{product.val_parc}</strong> <span class="juros">Sem juros</span></span>
+                                        <span className="qtd-parc"><strong>{product.qtd_parc}</strong> de <strong>{product.val_parc}</strong> <span className="juros">Sem juros</span></span>
                                     </div>
                                 </div>
                             </li>
@@ -65,7 +65,7 @@ class Shelf extends Component {
                     })}
             </OwlCarousel>
             </ul>
-        </div>
+        </section>
         );
     }
 }

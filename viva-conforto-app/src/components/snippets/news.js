@@ -2,12 +2,19 @@ import React from 'react';
 
 function Helper_links () {
     return (
-        <div className="top-menu">
-            <ul className="ul-menu">
-                <li className="item"><a href="/" className="text-style-1 dark-blue">Como Comprar</a></li>
-                <li className="item"><a href="/" className="text-style-1 dark-blue">Fale Conosco</a></li>
-                <li className="item border"><a href="/" className="text-style-1 dark-blue">Lista de Desejos</a></li>
-            </ul>
+        <div className="newsletter col-md-5">
+            <div className="content">
+                <span>
+                    <span className="news-text">RECEBA NOSSAS<br/>NOVIDADE E OFERTAS</span>
+                </span>
+                <span className="border-mail">
+                    <form>
+                        <input className="input-mail" type="text" placeholder="Digite o seu e-mail"></input>
+                        <button className="send-mail" type="input"><i class="fa fa-check" aria-hidden="true"></i></button>
+                    </form>
+                </span>
+
+            </div>
         </div>
     )
 }

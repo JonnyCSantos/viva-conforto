@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import Brands from '../snippets/brands.js'
+import News from '../snippets/news.js'
 
 class Newsletter extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="News">
+      <section className="container">
+        <div className="News flex justify-between align-center">
           <Brands/>
-          
+          <News/>
         </div>
-      </div>
+      </section>
     );
   }
 }

@@ -177,6 +177,10 @@ span.tags {
     left: -25px;
 }
 
+.shelf .owl-prev:hover::before {
+    color: #124f88 !important;
+}
+
 .owl-next {
     font-size: 0;
 }
@@ -189,6 +193,10 @@ span.tags {
     position: absolute;
     top: 230px;
     right: -25px;
+}
+
+.shelf .owl-next:hover::after {
+    color: #124f88 !important;
 }
 
 a.btn-hidden {

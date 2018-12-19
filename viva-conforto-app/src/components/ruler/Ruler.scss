@@ -1,0 +1,37 @@
+.ruler {
+    border-top: 1px solid #b3dde9;
+    padding: 15px 0;
+    margin-bottom: 10px
+}
+
+span.ruler-content span {
+    color: #124f88;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.boleto:before {
+    content: url(./img/icons/boleto.png);
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 10px;
+}
+
+.card:before {
+    content: url(./img/icons/card.png);
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 10px;
+}
+
+.frete:before {
+    content: url(./img/icons/frete.png);
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 10px;
+}
+
+.security:before {
+    content: url(./img/icons/seguro.png);
+    vertical-align: -webkit-baseline-middle;
+    margin-right: 10px;
+}
