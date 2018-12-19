@@ -9,6 +9,7 @@ import Banner_4 from '../../img/banner-4.jpg'
 
 const options = {
     items: 1,
+    nav: false,
     rewind: true,
     autoplay: true,
 };
@@ -19,10 +20,10 @@ class Carousel extends Component {
     return (
       <div>
         <OwlCarousel ref="car" options={options} >
-            <div classname="car-item"><a href="/"><img src={Banner_1} alt="Kit Space "/></a></div>
-            <div classname="car-item"><a href="/"><img src={Banner_2} alt="Linha Baby"/></a></div>
-            <div classname="car-item"><a href="/"><img src={Banner_3} alt="Saúde e Bem-estar"/></a></div>
-            <div classname="car-item"><a href="/"><img src={Banner_4} alt="Kit Travesseiros"/></a></div>
+            <div className="car-item"><a href="/"><img src={Banner_1} alt="Kit Space "/></a></div>
+            <div className="car-item"><a href="/"><img src={Banner_2} alt="Linha Baby"/></a></div>
+            <div className="car-item"><a href="/"><img src={Banner_3} alt="Saúde e Bem-estar"/></a></div>
+            <div className="car-item"><a href="/"><img src={Banner_4} alt="Kit Travesseiros"/></a></div>
         </OwlCarousel>
       </div>
     );

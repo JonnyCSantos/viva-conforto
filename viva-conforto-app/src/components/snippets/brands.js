@@ -20,14 +20,14 @@ class Brands extends Component {
     return (
       <div className="brands col-md-6">
         <OwlCarousel ref="car" options={options} >
-            <div classname="brand-item"><a href="/"><img src={Nap} alt="Nap"/></a></div>
-            <div classname="brand-item"><a href="/"><img src={Trisoft} alt="Trisoft"/></a></div>
-            <div classname="brand-item"><a href="/"><img src={Chuca} alt="Chuca"/></a></div>
-            <div classname="brand-item"><a href="/"><img src={Fribasca} alt="Fribasca"/></a></div>
-            <div classname="brand-item"><a href="/"><img src={Nap} alt="Nap"/></a></div>
-            <div classname="brand-item"><a href="/"><img src={Trisoft} alt="Trisoft"/></a></div>
-            <div classname="brand-item"><a href="/"><img src={Chuca} alt="Chuca"/></a></div>
-            <div classname="brand-item"><a href="/"><img src={Fribasca} alt="Fribasca"/></a></div>
+            <div className="brand-item"><a href="/"><img src={Nap} alt="Nap"/></a></div>
+            <div className="brand-item"><a href="/"><img src={Trisoft} alt="Trisoft"/></a></div>
+            <div className="brand-item"><a href="/"><img src={Chuca} alt="Chuca"/></a></div>
+            <div className="brand-item"><a href="/"><img src={Fribasca} alt="Fribasca"/></a></div>
+            <div className="brand-item"><a href="/"><img src={Nap} alt="Nap"/></a></div>
+            <div className="brand-item"><a href="/"><img src={Trisoft} alt="Trisoft"/></a></div>
+            <div className="brand-item"><a href="/"><img src={Chuca} alt="Chuca"/></a></div>
+            <div className="brand-item"><a href="/"><img src={Fribasca} alt="Fribasca"/></a></div>
         </OwlCarousel>
       </div>
     );

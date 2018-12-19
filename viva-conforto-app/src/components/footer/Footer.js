@@ -76,10 +76,10 @@ class Footer extends Component {
             </footer>
             <div className="copy">
                 <p className="copyright">Em caso de divergência de preços no site, o valor válido é o do Carrinho de Compras.  Preços e condições de pagamento podem variar de acordo com a disponibilidade dos produtos. <br/>Vendas sujeitas à análise e confirmação de dados As imagens dos produtos são meramente ilustrativas.<br/>Copyright © 2018-vivaconforto.com.br. Todos os direitos reservados.<br/>Viva Conforto Comércio Eireli Me CNPJ: 07.858.168/0001-81 - Endereço: Alameda Amazonas, 686 - Sala J - Alphaville Industrial - Barueri - SP</p>
-                <a href="http://auaha.com.br/" className="seal--auaha" target="_blank">
+                <a href="http://auaha.com.br/" className="seal--auaha" target="blank">
                     <img src="https://images.tcdn.com.br/485653/themes/64/img/auaha.png?5f78a8a31906a7998bd9393e5869486b" alt=""/>
                 </a>
-                <span class="logotray-message">Tecnologia <a href="http://www.tray.com.br/direciona/?utm_medium=CTA&amp;utm_campaign=selo_rodape&amp;utm_source=485653" target="_blank">TrayCommerce</a></span>
+                <span className="logotray-message">Tecnologia <a href="/" target="blank">TrayCommerce</a></span>
             </div>
         </div>
         

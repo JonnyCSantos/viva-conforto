@@ -6,9 +6,9 @@ class Newsletter extends Component {
   render() {
     return (
       <div className="container">
-      <Brands/>
-        <div className="row flex justify-between align-center">
-            
+        <div className="News">
+          <Brands/>
+          
         </div>
       </div>
     );

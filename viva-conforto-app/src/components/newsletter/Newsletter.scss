@@ -1,3 +1,31 @@
 .brands > .owl-carousel .owl-item {
     overflow: initial;
 }
+
+.News {
+    margin: 20px 0;
+}
+
+.brand-item {
+    margin-left: 30px;
+}
+
+.brands .owl-nav .owl-prev:before {
+    content: ' \F053';
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    color: #d1e1f0;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+}
+
+.brands .owl-nav .owl-next:after {
+    content: ' \F054';
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    color: #d1e1f0;
+    position: absolute;
+    top: 20px;
+    right: -10px;
+}
