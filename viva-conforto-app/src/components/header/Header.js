@@ -14,7 +14,8 @@ class Header extends Component {
         <header>
             <div className="container">
                 <div className="row">
-                    <div className="flex justify-between align-center border-bottom">
+                    <div className="header flex justify-between align-center border-bottom">
+                        <span className="hamburguer"></span>
                         <h1 className="site-logo" alt="">
                             <a href="/">
                                 <img src={Logo} alt="Viva Conforto - Logomarca"></img>
@@ -37,7 +38,6 @@ class Header extends Component {
                     <Menu/>
                 </div>
             </div>
-            
         </header>
       </div>
     );

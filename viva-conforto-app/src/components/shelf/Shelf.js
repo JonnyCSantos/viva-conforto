@@ -8,7 +8,21 @@ const options = {
     items: 4,
     nav: true,
     rewind: true,
-    autoplay: true
+    autoplay: true,
+    responsive: {
+        0: {
+          items: 1,
+        },
+        400: {
+          items: 2,
+        },
+        600: {
+          items: 3,
+        },
+        620: {
+          items: 4,
+        }
+      }
 };
 
 class Shelf extends Component {

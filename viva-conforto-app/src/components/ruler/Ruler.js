@@ -3,7 +3,7 @@ import React from 'react';
 function Ruler () {
     return (
         <section className="container">
-            <div className="ruler flex justify-between align-center">
+            <div className="ruler flex justify-around align-center">
                 <span className="ruler-content">
                     <span className="boleto">Desconto de 5% no Boleto</span>
                 </span>

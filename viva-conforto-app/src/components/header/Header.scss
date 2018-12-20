@@ -1,7 +1,7 @@
 header {
     position: fixed;
     width: 100%;
-    z-index: 300;
+    z-index: 2;
     background-color: #fff;
     box-shadow: 1px 1px 10px #d6d6d6;
 }
@@ -205,7 +205,7 @@ ul.menu {
 ul.sub-menu {
     position: absolute;
     top: 50px;
-    height: 310px;
+    height: 300px;
     padding: 20px 20px;
     background-color: #fff;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
@@ -263,4 +263,223 @@ li.item-all > a:first-child {
     display: block !important;
     margin-bottom: 10px !important;
 }
+
+span.hamburguer:before {
+    cursor: pointer;
+    content: ' \f0c9';
+    font-family: FontAwesome;
+    display: none;
+}
+
+div.bem-vindo-mob {
+    display: none !important;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
+
+nav.mob-menu {
+    display: none;
+}
+
+
+@media (max-width: 1024px) {
+    .login {
+        display: none;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .btn-bag {
+        padding-right: 25px;
+    }
+
+    span.count-items {
+        right: 0px;
+    }
+
+    form#search-form {
+        right: 115px;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    nav.mob-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -350px;
+        bottom: 0;
+        width: 300px;
+        background-color: #fff;
+        box-shadow: 1px 1px 10px #000;
+        transition: .5s;
+        overflow-y: scroll;
+        z-index: 6;
+    }
+
+    span.mask {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.2);
+        z-index: 5;
+    }
+
+    span.hamburguer {
+        width: 58px;
+        display: block;
+    }
+
+    span.hamburguer:before {
+        content: ' \F0C9';
+        font-family: FontAwesome;
+        padding: 10px 10px;
+        font-size: 30px;
+        border: 1px solid #b3dde9;
+        border-radius: 5px;
+        color: #124f88;
+        display: block;
+    }
+
+
+    div.header-mob {
+        display: block;
+        border-bottom: 1px solid #124f88;
+        margin-bottom: 15px;
+    }
+
+
+    div.header-mob p {
+        color: #787878;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -.1px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    div.header-mob span {
+        color: #124f88;
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 145px;
+        line-height: 20px;
+    }
+
+    ul.ul-mob {
+        padding: 0 15px;
+    }
+
+    a.entrar-mob {
+        display: initial;
+        font-size: 14px;
+        font-weight: 600;
+        color: #124f88;
+    }
+
+    a.cadastrar-mob {
+        display: initial;
+        font-size: 14px;
+        font-weight: 600;
+        color: #124f88;
+    }
+
+    a.entrar-mob:after {
+        content: '/';
+        letter-spacing: 5px;
+        margin-left: 10px;
+    }
+
+    span.close-icon {
+        position: absolute;
+        font-size: 20px;
+        top: 22px;
+        right: -115px;
+        cursor: pointer;
+    }
+    
+    span.close-icon:before {
+        content: "\f00d";
+        font-family: FontAwesome;
+        font-size: 20px;
+    }
+
+    li.item-mob {
+        padding: 0;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    li.item-mob a strong {
+        color: #124f88;
+        font-size: 13px;
+    }
+
+    ul.sub-mob li {
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
+
+    li.single-item a {
+        font-size: 14px;
+        line-height: 30px;
+        color: #287f9a;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .site-logo {
+        height: 30px;
+    }
+
+    .site-logo a img {
+        width: 90%;
+        height: auto;
+        margin-top: -8px;
+    }
+
+    form#search-form {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    form#search-form {
+        width: 280px;
+    }
+
+    span#btn-search {
+        display: none;
+    }
+}
+
+@media (max-width: 424px) {
+    form#search-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .btn-bag {
+        padding-right: 25px;
+        padding-left: 5px;
+    }    
+}
+
+
+
 

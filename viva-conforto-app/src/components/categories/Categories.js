@@ -6,7 +6,7 @@ import Bed from '../../img/cama.jpg'
 function Categories () {
     return (
         <section className="container">
-            <div className="cat flex justify-between align-center">
+            <div className="cat flex justify-around align-center">
                 <figure className="cat-img">
                     <a href="/">
                         <img src={Pillow} alt=""/>

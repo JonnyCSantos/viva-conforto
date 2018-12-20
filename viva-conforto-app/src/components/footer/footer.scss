@@ -35,23 +35,11 @@ footer#footer {
     text-decoration: underline;
 }
 
-.info {
-    width: 70%;
-    display: inline-block;
-}
-
 .selos {
     display: inline-block;
-    width: 36%;
-    max-width: 320px;
     vertical-align: top;
 }
 
-nav.footer-title {
-    display: inline-block;
-    width: 33.33%;
-    vertical-align: top;
-}
 
 .contact-text {
     color: white;
@@ -194,5 +182,25 @@ span.logotray-message {
     display: block;
     width: 150px;
     margin: 20px auto;
+}
+
+@media (max-width: 1024px) {
+
+.footer-title {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.selos {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+}
+
+@media (max-width: 424px) {
+    footer#footer {
+        padding: 0px 0 30px 0;
+    }
 }
 

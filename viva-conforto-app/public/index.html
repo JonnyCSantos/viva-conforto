@@ -43,6 +43,16 @@
   </body>
   <script>
     $( document ).ready(function() {
+        /* Toggle Mob-Menu */
+        $('.hamburguer').click(function(){
+            $('nav.mob-menu').css('left', '0');
+            $('.mask').css('display', 'block');
+        });
+        $('.close-icon').click(function(){
+            $('nav.mob-menu').css('left', '-350px');
+            $('.mask').css('display', 'none');
+        });
+
         /* Toggle Search */ 
         $('#btn-search').click(function() {
             $('#search-form').toggle('normal');

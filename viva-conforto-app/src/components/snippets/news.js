@@ -2,7 +2,7 @@ import React from 'react';
 
 function Helper_links () {
     return (
-        <div className="newsletter col-md-5">
+        <div className="newsletter col-md-5 col-sm-12">
             <div className="content">
                 <span>
                     <span className="news-text">RECEBA NOSSAS<br/>NOVIDADE E OFERTAS</span>

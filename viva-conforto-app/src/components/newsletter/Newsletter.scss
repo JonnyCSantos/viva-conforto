@@ -113,3 +113,27 @@ button.send-mail {
 button.send-mail:hover {
     color: #b3dde9;
 }
+
+@media (max-width: 1024px) {
+    .brands {
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .brands .brand-item > a > img {
+        width: initial !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .brand-item {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 393px) {
+    span.news-text {
+        font-size: 11px;
+    }
+}

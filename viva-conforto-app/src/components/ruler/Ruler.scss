@@ -35,3 +35,9 @@ span.ruler-content span {
     vertical-align: -webkit-baseline-middle;
     margin-right: 10px;
 }
+
+@media (max-width: 1024px) {
+    span.ruler-content {
+        margin: 15px 0;
+    }
+}

@@ -8,17 +8,30 @@ import Chuca from '../../img/chuca.png'
 import Fribasca from '../../img/fibrasca.png'
 
 const options = {
-    items: 4,
     nav: true,
     rewind: true,
     autoplay: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      400: {
+        items: 2,
+      },
+      600: {
+        items: 3,
+      },
+      620: {
+        items: 4,
+      }
+    }
 };
 
 class Brands extends Component {
 
   render() {
     return (
-      <div className="brands col-md-6">
+      <div className="brands col-md-6 col-sm-8">
         <OwlCarousel ref="car" options={options} >
             <div className="brand-item"><a href="/"><img src={Nap} alt="Nap"/></a></div>
             <div className="brand-item"><a href="/"><img src={Trisoft} alt="Trisoft"/></a></div>
