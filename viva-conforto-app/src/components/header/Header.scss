@@ -281,6 +281,17 @@ nav.mob-menu {
     display: none;
 }
 
+span.mask {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(38, 95, 143, 0.7);
+    z-index: 5;
+}
+
 
 @media (max-width: 1024px) {
     .login {
@@ -319,17 +330,6 @@ nav.mob-menu {
         transition: .5s;
         overflow-y: scroll;
         z-index: 6;
-    }
-
-    span.mask {
-        display: none;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        background-color: rgba(0,0,0,.2);
-        z-index: 5;
     }
 
     span.hamburguer {

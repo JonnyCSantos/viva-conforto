@@ -21,16 +21,16 @@ gulp.task('sass', function () {
 });
 
 // Js Task
-gulp.task('js', function () {
-  // Define a folder to listen - All files witch has .js extension
-  return gulp.src('viva-conforto-app/src/jquery/**/*.js')
-    // Concatenate all files in the above directory
-    .pipe(concat('script.min.js'))
-    // Compress js file into js folder
-    .pipe(uglify())
-    // Define dest folder
-    .pipe(gulp.dest('viva-conforto-app/src'));
- });
+// gulp.task('js', function () {
+//   // Define a folder to listen - All files witch has .js extension
+//   return gulp.src('viva-conforto-app/src/jquery/**/*.js')
+//     // Concatenate all files in the above directory
+//     .pipe(concat('script.min.js'))
+//     // Compress js file into js folder
+//     .pipe(uglify())
+//     // Define dest folder
+//     .pipe(gulp.dest('viva-conforto-app/src'));
+//  });
 
 // Watch Task
 gulp.task('watch', function() {

@@ -1,0 +1,112 @@
+section.modal {
+    display: none;
+    background: url(./img/lightbox-bg.png) no-repeat;
+    max-width: 800px;
+    max-height: 540px;
+    position: fixed;
+    margin: 0 auto;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.collum-text {
+    max-width: 325px;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    justify-content: center;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.text-big {
+    color: #124f88;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 35px;
+    letter-spacing: .6px;
+}
+
+.text-small {
+    color: #3da4c1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 5px 0 25px;
+}
+
+input.input-tex {
+    width: 100%;
+    background: white;
+    border: none;
+    border-radius: 3px;
+    color: #3da4c1;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 10px;
+    transition: all 150ms ease-in-out;
+    margin-bottom: 10px;
+    border: 1px solid #88c1d0;
+}
+
+.collum-text form {
+    position: relative;
+}
+
+.modal button.send-mail {
+    position: absolute;
+    top: 75px;
+    right: -15px;
+}
+
+.modal span.close-icon-modal {
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.show-modal {
+    display: block !important;
+}
+
+.modal span.close-icon-modal:before {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #124f88;
+}
+
+@media (max-width: 1024px) {
+    section.modal {
+        top: 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    .collum-text {
+        margin: 0 auto;
+    }
+
+    .modal span.close-icon-modal {
+        left: 20px;
+    }
+}
+
+@media (max-width: 424px) {
+    .text-big {
+        color: #124f88;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 35px;
+        letter-spacing: .6px;
+    }
+}
+

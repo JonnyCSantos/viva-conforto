@@ -10,7 +10,7 @@ function Helper_links () {
                 <span className="border-mail">
                     <form>
                         <input className="input-mail" type="text" placeholder="Digite o seu e-mail"></input>
-                        <button className="send-mail" type="input"><i class="fa fa-check" aria-hidden="true"></i></button>
+                        <button className="send-mail" type="input"><i className="fa fa-check" aria-hidden="true"></i></button>
                     </form>
                 </span>
 

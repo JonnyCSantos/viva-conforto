@@ -8,7 +8,7 @@ function Search () {
             <form id="search-form">
                 <input id="input-search" type="text" className="input-search" placeholder="Faça a Sua Busca"></input>
                 <button id="send-search"><img src={Search_icon} alt="search icon"/></button>
-                <span id="close-search"><i class="fas fa-times"></i></span>
+                <span id="close-search"><i className="fas fa-times"></i></span>
             </form>
             <span id="btn-search" className="btn-search dark-blue">Buscar</span>
             <button className="btn-bag dark-blue">
